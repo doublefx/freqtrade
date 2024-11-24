@@ -7,7 +7,7 @@ pandas-ta==0.3.14b
 ccxt==1.95.2
 # Pin cryptography for now due to rust build errors with piwheels
 cryptography==38.0.1
-aiohttp==3.8.3
+aiohttp==3.10.11
 SQLAlchemy==1.4.41
 python-telegram-bot==13.14
 arrow==1.2.3
@@ -57,3 +57,4 @@ schedule==1.1.0
 #WS Messages
 websockets==10.3
 janus==1.0.0
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
